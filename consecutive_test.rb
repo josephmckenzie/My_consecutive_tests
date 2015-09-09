@@ -49,4 +49,8 @@ def test_to_itterate_through_array_and_find_identical_elements
     assert_equal(100, results)
 end
 
+def test_for_consecutive_identical_elements
+results=find_max_consecutive_indentical_elements([1,2,1,2])
+assert_equal(1,results)
+end
 end
