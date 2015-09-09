@@ -59,8 +59,9 @@ results=find_max_consecutive_indentical_elements([1,2,2,2,3,3,1,1])
 assert_equal(3, results)
 end
 
-
-
-
+def test_for_consecutive_letters
+results=find_max_consecutive_indentical_elements([a,a,b,a])
+assert_equal(2,results)
+end
 
 end
