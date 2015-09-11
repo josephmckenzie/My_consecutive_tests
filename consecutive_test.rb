@@ -69,5 +69,9 @@ def test_has_2_identical_letters
 results=has_identical_letters?("hello")
 assert_equal(2, results)
 end
-end
 
+def test_has_7_identical_letters
+results=has_identical_letters?("this is sooooooo hard")
+assert_equal(7,results)
+end
+end
