@@ -20,11 +20,17 @@ else
 count_of_consecutive_elements << consecutive_elements.count
 consecutive_elements=[]
 end
-
 end
 count_of_consecutive_elements << consecutive_elements.count
 count_of_consecutive_elements.max 
 end
+
+def has_identical_letters?(str)
+str.count("l")
+end
+
+
+
 
 # def find_max_consecutive_indentical_elements(any_array)
 # if any_array.length == 0

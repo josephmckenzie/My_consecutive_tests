@@ -61,8 +61,13 @@ assert_equal(2, results)
 end
 
 def test_for_identical_elements_in_middle_of_array
-    results = find_max_consecutive_indentical_elements([1,2,2,2,5])
+    results = find_max_consecutive_indentical_elements([1,2,2,2])
    assert_equal(3, results)
 end
 
+def test_has_2_identical_letters
+results=has_identical_letters?("hello")
+assert_equal(2, results)
 end
+end
+
