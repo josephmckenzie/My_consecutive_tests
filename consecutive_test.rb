@@ -79,4 +79,10 @@ def test_for_1_identical_letter
 results=has_1_identical_letter?("this is so easy")
 assert_equal(1, results)
 end
+
+def test_for_no_char_in_string
+results=str_size("")
+assert_equal(0,results)
+
+end
 end
