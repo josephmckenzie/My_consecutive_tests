@@ -38,6 +38,9 @@ def has_1_identical_letter?(str)
 str.count("e")
 end
 
+def str_size(str)
+str.size
+end
 
 
 # def find_max_consecutive_indentical_elements(any_array)
