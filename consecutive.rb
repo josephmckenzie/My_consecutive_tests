@@ -29,7 +29,9 @@ def has_identical_letters?(str)
 str.count("l")
 end
 
-
+def has_7_identical_letters?(str)
+str.count("o")
+end
 
 
 # def find_max_consecutive_indentical_elements(any_array)

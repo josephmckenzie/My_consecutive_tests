@@ -71,7 +71,7 @@ assert_equal(2, results)
 end
 
 def test_has_7_identical_letters
-results=has_identical_letters?("this is sooooooo hard")
+results=has_7_identical_letters?("this_is_sooooooo_hard")
 assert_equal(7,results)
 end
 end
