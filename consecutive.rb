@@ -31,7 +31,7 @@ str.count("l")
 end
 
 def has_7_identical_letters?(str)
-str.count("o")
+str.scan(/o/).count
 end
 
 def has_1_identical_letter?(str)

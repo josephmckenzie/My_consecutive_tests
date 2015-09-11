@@ -80,7 +80,7 @@ results=has_1_identical_letter?("this is so easy")
 assert_equal(1, results)
 end
 
-def test_for_no_char_in_string
+def test_for_no_chars_in_string
 results=str_size("")
 assert_equal(0,results)
 
