@@ -34,7 +34,7 @@ def test_array_for_2_consecutive_elements_and_1_non_consecutive
    assert_equal(2, results)
 end
 
-def test_array_for_2_different_identical_elements_and_1_non_identical_element
+def test_array_for_3different_identical_elements_and_1_non_identical_element
     results = find_max_consecutive_indentical_elements([1,2,2,2])
    assert_equal(3, results)
 end
@@ -60,8 +60,8 @@ results=find_max_consecutive_indentical_elements(["a","a","b","c"])
 assert_equal(2, results)
 end
 
-def test_for_identical_elements_in_middle_of_array
-    results = find_max_consecutive_indentical_elements([1,2,2,2])
+def test_for_3_identical_elements_in_a_array
+    results = has_3_identical_numbers([1,2,2,2,3,3,1,1])
    assert_equal(3, results)
 end
 
