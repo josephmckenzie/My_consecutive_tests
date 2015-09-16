@@ -57,17 +57,17 @@ end
 
 def test_for_2_consecutive_letters_in_an_array
 results=find_max_consecutive_indentical_elements(["a","a","b","c"])
-assert_equal(2, results)
+assert_equal(2,results)
 end
 
 def test_for_3_identical_elements_in_a_array
-    results = has_3_identical_numbers([1,2,2,2,3,3,1,1])
-   assert_equal(3, results)
+    results =find_max_consecutive_indentical_elements([1,2,2,2,3,3,1,1])
+   assert_equal(3,results)
 end
 
 def test_has_2_identical_letters
 results=has_identical_letters?("hello")
-assert_equal(2, results)
+assert_equal(2,results)
 end
 
 def test_has_7_identical_letters
@@ -77,7 +77,7 @@ end
 
 def test_for_1_identical_letter
 results=has_1_identical_letter?("this is so easy")
-assert_equal(1, results)
+assert_equal(1,results)
 end
 
 def test_for_no_chars_in_string

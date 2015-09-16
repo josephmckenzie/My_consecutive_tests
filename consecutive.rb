@@ -8,22 +8,16 @@ consecutive_elements << value
 
 elsif value == consecutive_elements[-1]
 consecutive_elements << value 
-
-elsif any_array[-2]== any_array[-1]
-consecutive_elements=[]
-consecutive_elements<< value
 else 
 count_of_consecutive_elements << consecutive_elements.count
 consecutive_elements=[]
+consecutive_elements << value
 end
 end
 count_of_consecutive_elements << consecutive_elements.count
 count_of_consecutive_elements.max 
 end
 
-def has_3_identical_numbers(num)
-num.count 2
-end
 
 def has_identical_letters?(str)
 str.count "l"
